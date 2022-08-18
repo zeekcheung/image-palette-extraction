@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Extract palette from an image and written by TypeScript.",
   "main": "./src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeekcheung/image-palette-extraction.git"
+  },
+  "license": "MIT",
   "scripts": {
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
