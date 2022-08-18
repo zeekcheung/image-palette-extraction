@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Image Palette Extraction</title>
+  </head>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    html,
+    body {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #container {
+      width: 500px;
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 100px);
+      gap: 20px;
+      justify-content: space-between;
+    }
+
+    .coloredBox {
+      width: 100px;
+      height: 40px;
+      color: aliceblue;
+      text-align: center;
+      line-height: 40px;
+    }
+  </style>
+
+  <body>
+    <div id="container"></div>
+  </body>
+</html>
