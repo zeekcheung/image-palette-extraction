@@ -1,7 +1,8 @@
 {
+  "name": "image-palette-extraction",
   "version": "1.0.0",
-  "description": "My webpack project",
-  "name": "my-webpack-project",
+  "description": "Extract palette from an image and written by TypeScript.",
+  "main": "./src/index.ts",
   "scripts": {
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
