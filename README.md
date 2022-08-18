@@ -16,11 +16,17 @@
 > 3. 将像素点一分为二
 > 4. 递归执行以上过程，直到图片的所有像素点被分成目标颜色数量个部分。此时，每个部分的像素点代表一个量化后的颜色。对某个部分的像素点进行统计，求出 r，g，b 各个通道的平均值，即可得到该部分像素点代表的颜色。
 
+## 安装
+
+```shell
+npm i image-palette-extraction
+```
+
 ## 使用
 
 ```ts
 // index.ts
-import { getImagePalette } from './src/index'
+import { getImagePalette } from 'image-palette-extraction'
 
 // 加载图片
 const image = document.createElement('img')
